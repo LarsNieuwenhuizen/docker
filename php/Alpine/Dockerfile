@@ -34,4 +34,4 @@ RUN apk add --no-cache --update graphicsmagick curl ssmtp
 
 RUN rm -rf /var/cache/apk/*
 
-CMD ["php-fpm7", "-f"]
+CMD ["-"]
