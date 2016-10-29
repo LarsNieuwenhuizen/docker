@@ -2,7 +2,6 @@ FROM ubuntu:16.10
 
 ENV DEBIAN_FRONTEND noninteractive
 
-# RUN sed -i 's/http:\/\/nl./http:\/\//g' /etc/apt/sources.list
 RUN apt-get update
 RUN apt-get install -y php7.0-fpm php7.0-cli
 RUN apt-get install -y \
